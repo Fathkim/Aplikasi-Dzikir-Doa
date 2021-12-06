@@ -27,7 +27,7 @@ class DetailArtikelActivity : AppCompatActivity() {
         tvTitle.text = dataTitle
         val tvDesc: TextView = findViewById(R.id.tv_detail_desc)
         tvDesc.text = dataDesc
-        val imageArtikel= findViewById<ImageView>(R.id.cv_img_detail)
+        val imageArtikel= findViewById<ImageView>(R.id.img_detail)
         imageArtikel.setImageResource(dataImage)
     }
     override fun onSupportNavigateUp(): Boolean {

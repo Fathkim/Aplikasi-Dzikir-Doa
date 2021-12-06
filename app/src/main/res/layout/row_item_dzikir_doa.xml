@@ -10,7 +10,7 @@
         android:id="@+id/tv_desc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blue_gray"
+        android:background="@drawable/bg_blue_gray"
         android:fontFamily="sans-serif"
         android:padding="16dp"
         android:textColor="@color/dot_blue"
